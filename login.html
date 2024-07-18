@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>HTML Login Form</title>
+      <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+      <section class="header">
+            <nav>
+        
+                <div class="nav-links" id="navLinks">
+                  
+                  <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="index.html#course_call">Course</a></li>
+                        <li><a href="fees_page.html">Fees</a></li>
+                        <li><a href="Contact_page.html">Contact</a></li>
+                    </ul>
+                </div> 
+            </nav>
+      <div class="main">
+            <h1>LOGIN</h1>
+            <h3>Enter your login credentials</h3>
+            <form action="">
+                  <label for="first">
+                        Username:
+                  </label>
+                  <input type="text" 
+                         id="first" 
+                         name="first" 
+                         placeholder="Enter your Username" required>
+
+                  <label for="password">
+                        Password:
+                  </label>
+                  <input type="password"
+                         id="password" 
+                         name="password"
+                         placeholder="Enter your Password" required>
+
+                  <div class="wrap">
+                        <button type="submit"
+                                onclick="solve()">
+                              Submit
+                        </button>
+                  </div>
+            </form>
+            <p>Not registered?
+                  <a href="#"
+                     style="text-decoration: none;">
+                        Create an account
+                  </a>
+            </p>
+      </div>
+      </section>
+      <script src="javascript/main_script.js"></script>
+</body>
+
+</html>
